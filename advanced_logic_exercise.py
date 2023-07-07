@@ -33,9 +33,21 @@ print(neighbour(numbers))
 #    
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
+def exclusive_sum(numbers):
+    running_total = []
+    counting_bool = True
+    for number in numbers:
+        if number == 6:
+            counting_bool = False
+        if counting_bool == True:
+            running_total.append(number)
+        if number == 7:
+            counting_bool = True
+    final_total = sum(running_total)
+    return final_total
 
 
-
+print(exclusive_sum(numbers))
 # 5. HARD! Print the sum of the numbers. 
 #    Except the number 13 is very unlucky, so it does not count.
 #    And numbers that come immediately after a 13 also do not count.
