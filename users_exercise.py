@@ -82,6 +82,12 @@ print(smallest)
 
 # 6. Return an list of Avril's lottery numbers that are even
 
+avril_lot_even = []
+for lots in users["Avril"]["lottery_numbers"]:
+    if (lots % 2 ) == 0:
+        avril_lot_even.append(lots)
+print(avril_lot_even)
+
 
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 
