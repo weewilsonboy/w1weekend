@@ -72,6 +72,13 @@ print(users["Avril"]["pets"][0]["species"])
 
 # 5. Get the smallest of Erik's lottery numbers
 
+smallest = 9999999999999
+for nums in users["Erik"]["lottery_numbers"]:
+    new_num = nums
+    if new_num < smallest:
+        smallest = new_num
+print(smallest)
+
 
 # 6. Return an list of Avril's lottery numbers that are even
 
