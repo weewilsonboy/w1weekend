@@ -68,7 +68,7 @@ print(users["Erik"]["lottery_numbers"])
 
 # 4. Get the species of Avril's pet Monty
 
-
+print(users["Avril"]["pets"][0]["species"])
 
 # 5. Get the smallest of Erik's lottery numbers
 
