@@ -64,8 +64,10 @@ print(users["Erik"]["home_town"])
 
 # 3. Get the list of Erik's lottery numbers
 
+print(users["Erik"]["lottery_numbers"])
 
 # 4. Get the species of Avril's pet Monty
+
 
 
 # 5. Get the smallest of Erik's lottery numbers
