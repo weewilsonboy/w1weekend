@@ -55,7 +55,16 @@ print(exclusive_sum(numbers))
 #
 #    So [5, 13, 2] would have sum of 5. 
 
+def unlucky_sum(numbers):
+    unlucky = numbers.index(13)
+    running_total = 0
+    for number in numbers:
+        if number != numbers[unlucky] and number != numbers[unlucky+1]:
+            running_total += number
+    return running_total
 
+
+print(unlucky_sum(numbers))
 
 
 
