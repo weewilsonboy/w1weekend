@@ -106,5 +106,15 @@ print(users["Erik"]["pets"])
 
 
 # 10. Add another person to the users dictionary
+users["Euan"] = {
+      "twitter":"banmeelon",
+      "lottery_numbers":[1,2,16,18],
+      "home_town":"Livingston",
+      "pets":[]
+
+
+  }
+print(users["Euan"])
+
 
 
